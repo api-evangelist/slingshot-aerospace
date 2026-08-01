@@ -1,0 +1,15 @@
+{
+  "repo": "slingshot-aerospace",
+  "feeds": [
+    {
+      "source": "https://www.slingshot.space/faq",
+      "feed_url": "https://www.slingshot.space/faq",
+      "title": "",
+      "saved": 0,
+      "method": "none",
+      "error": "parse_failed"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-08-01T15:38:58Z"
+}

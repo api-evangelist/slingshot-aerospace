@@ -1,8 +1,18 @@
 aid: slingshot-aerospace
 name: Slingshot Aerospace
-description: Slingshot Aerospace is a company surfaced as a portfolio company of techstars and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Slingshot Aerospace is a space operations intelligence and autonomy (SOIA)
+  company that turns sensing, data fusion, and simulation into operational
+  action for satellite operators, defense, and civil space agencies. Its Portal
+  platform and Developer Suite expose orbital intelligence through APIs — the GSN
+  Data API for near-real-time observations, state vectors, and tracking metrics
+  from the Global Sensor Network and Sovereign Space Object Tracking (SSOT); the
+  Seradata API for global satellite and launch intelligence, mission metadata,
+  reliability history, and operator context; and a forthcoming MCP Insights
+  Server exposing analytics, fusion results, and AI-derived insights from the
+  Agatha AI and TALOS AI pipelines. API access is managed through the Portal
+  with API-key credentials and RBAC, and usage is metered in Slingshot
+  Processing Units (SPUs).
 url: https://raw.githubusercontent.com/api-evangelist/slingshot-aerospace/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,17 +20,80 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://cdn.prod.website-files.com/6553609efc7ebb8aa8712fd7/65c2a9186e04fe56e2d9263b_Slingshot_Aerospace_OG.png
 tags:
 - Company
-apis: []
+- Space
+- Aerospace
+- Space Situational Awareness
+- Satellite Tracking
+- Orbital Intelligence
+- Space Domain Awareness
+- Defense
+- Artificial Intelligence
+- Data
+apis:
+- name: Slingshot Developer Suite
+  description: >-
+    Unified developer entry point for Slingshot's orbital intelligence APIs —
+    GSN Data (near-real-time observations, state vectors, tracking metrics from
+    the Global Sensor Network and SSOT), Seradata (satellite and launch
+    intelligence), and the forthcoming MCP Insights Server. Access is managed
+    through the Slingshot Portal with API-key credentials and RBAC; usage is
+    metered in Slingshot Processing Units (SPUs).
+  humanURL: https://www.slingshot.space/product-developer-docs
+  baseURL: https://portal.slingshot.space
+  tags:
+  - Space Situational Awareness
+  - Satellite Tracking
+  - Orbital Intelligence
+  properties:
+  - type: Documentation
+    url: https://www.slingshot.space/product-developer-docs
+  - type: DeveloperPortal
+    url: https://portal.slingshot.space/developersuite/docs
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/slingshot-aerospace-domain-security.yml
 - type: Website
-  url: https://slingshot.space/
+  url: https://www.slingshot.space/
+- type: DeveloperPortal
+  url: https://portal.slingshot.space/developersuite/docs
+- type: Documentation
+  url: https://www.slingshot.space/product-developer-docs
+- type: SignUp
+  url: https://portal.slingshot.space/
+- type: Support
+  url: https://www.slingshot.space/faq
+- type: Blog
+  url: https://www.slingshot.space/news
+- type: GitHubOrganization
+  url: https://github.com/slingshot-aerospace-inc
+- type: TermsOfService
+  url: https://www.slingshot.space/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.slingshot.space/privacy-policy
