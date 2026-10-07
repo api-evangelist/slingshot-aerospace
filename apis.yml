@@ -88,6 +88,10 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Pricing
+  url: https://www.slingshot.space/product-portal
+- type: Plans
+  url: plans/slingshot-aerospace-plans-pricing.yml
 - url: https://www.slingshot.space/news/rss.xml
   type: BlogRSS
 - type: DomainSecurity
