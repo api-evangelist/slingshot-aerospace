@@ -1,0 +1,110 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.slingshot.space/product-portal
+sources:
+- https://www.slingshot.space/product-portal
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T112025
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: Page mixes two pricing tables (Free/Standard/Pro/Enterprise and Researcher/Operator/Developer/Enterprise
+  Admin) plus pay-as-you-go SPU credit rates.
+plan_count: 13
+currency: USD
+plans:
+- name: Free
+  price_text: $0 /mo
+  price: 0
+  currency: USD
+  period: month
+  unit: account
+  included_quota: 500 credits Included (On sign up)
+  overage: $1.20/SPU
+- name: Standard
+  price_text: $495 /mo
+  price: 495
+  currency: USD
+  period: month
+  unit: account
+  included_quota: 1000 credits Included /mo
+  overage: $0.80/SPU
+- name: Pro
+  price_text: $895 /mo
+  price: 895
+  currency: USD
+  period: month
+  unit: account
+  included_quota: 2500 credits Included /mo
+  overage: $0.60/SPU
+- name: Enterprise
+  price_text: $Custom
+  period: none
+  included_quota: 3000 credits Included /mo
+- name: Standard (Annual)
+  price_text: $4,400 /Annually
+  price: 4400
+  currency: USD
+  period: year
+  unit: account
+  included_quota: 1000 credits Included /mo
+- name: Pro (Annual)
+  price_text: $7,600 /Annually
+  price: 7600
+  currency: USD
+  period: year
+  unit: account
+  included_quota: 2500 credits Included /mo
+- name: Enterprise (essential plus)
+  price_text: $300.5 /month
+  price: 300.5
+  currency: USD
+  period: month
+  included_quota: Unlimited updates and products
+- name: Researcher
+  price_text: $289 /mo
+  price: 289
+  currency: USD
+  period: month
+  included_quota: Seradata, GSN Catalog, Space Digital Twin & Serabot; preview only API access
+- name: Operator
+  price_text: $869 /mo
+  price: 869
+  currency: USD
+  period: month
+  included_quota: Everything in Researcher; GSN API access; Orbital Analysis Package
+- name: Developer
+  price_text: $909 /mo
+  price: 909
+  currency: USD
+  period: month
+  included_quota: Seradata and GSN API access; MCP Server access
+- name: Enterprise Admin
+  price_text: $1,519 /mo
+  price: 1519
+  currency: USD
+  period: month
+  included_quota: Everything in Developer; Orbital Analysis and Financial Anomaly Packages; Priority Support
+- name: Existing Data
+  price_text: Starting at 9 SPU
+  price: 9
+  period: per-use
+  unit: SPU
+  included_quota: Latest snapshot or historical window
+- name: Future Data
+  price_text: Starting at 33 SPU
+  price: 33
+  period: per-use
+  unit: SPU
+  included_quota: Continuous access to new data
+rate_limit_statements:
+- endpoint costs can range from 0.00 to 36.48 SPU per API call
+- Only successful 2xx responses consume SPUs; 4xx, 5xx, and 429 responses are not charged
+- time-frame windows limited to 30-day intervals
