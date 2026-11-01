@@ -64,6 +64,97 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Slingshot Aerospace is a company surfaced as a portfolio company of techstars and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Slingshot Aerospace is a space operations intelligence and autonomy (SOIA) company that turns sensing, data fusion, and simulation into operational action for satellite operators, defense, and civil space agencies. Its Portal platform and Developer Suite expose orbital intelligence through APIs — the GSN Data API for near-real-time observations, state vectors, and tracking metrics from the Global Sensor Network and Sovereign Space Object Tracking (SSOT); the Seradata API for global satellite and launch intelligence, mission metadata, reliability history, and operator context; and a forthcoming MCP Insights Server exposing analytics, fusion results, and AI-derived insights from the Agatha AI and TALOS AI pipelines. API access is managed through the Portal with API-key credentials and RBAC, and usage is metered in Slingshot Processing Units (SPUs).
 
-Backed by: techstars — https://slingshot.space/
+**Areas:** Company · Space · Aerospace · Space Situational Awareness · Satellite Tracking · Orbital Intelligence · Space Domain Awareness · Defense · Artificial Intelligence · Data
+
+## Slingshot Aerospace on APIs.io
+
+Everything profiled for Slingshot Aerospace is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/slingshot-aerospace/](https://apis.io/providers/slingshot-aerospace/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Slingshot Developer Suite](https://apis.io/apis/slingshot-aerospace/slingshot-developer-suite/) — Unified developer entry point for Slingshot's orbital intelligence APIs — GSN Data (near-real-time observations, state vectors, tracking metrics from the…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Slingshot Aerospace Domain Security](https://apis.io/security/slingshot-aerospace/slingshot-aerospace-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Slingshot Aerospace Plans Pricing](https://apis.io/plans/slingshot-aerospace/slingshot-aerospace-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.slingshot.space/)
+- [Documentation](https://www.slingshot.space/product-developer-docs)
+- [Pricing](https://www.slingshot.space/product-portal)
+- [Sign up](https://portal.slingshot.space/)
+- [Support](https://www.slingshot.space/faq)
+- [Blog](https://www.slingshot.space/news)
+- [Terms of service](https://www.slingshot.space/terms-of-service)
+- [Privacy policy](https://www.slingshot.space/privacy-policy)
+- [GitHub](https://github.com/slingshot-aerospace-inc)
+
+## API Evangelist rating
+
+**Kin Score 27.1** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 26.2 |
+| Access clarity | 76.3 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 12.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/slingshot-aerospace/](https://apis.io/providers/slingshot-aerospace/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Slingshot Aerospace: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/slingshot-aerospace/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
